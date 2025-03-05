@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot name="plane">
+    <link name="base">
+        <inertial>
+            <mass value="0"/>
+            <origin xyz="0 0 0"/>
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <plane/>
+            </geometry>
+        </collision>
+        <visual>
+            <origin xyz="0 0 0"/>
+            <geometry>
+                <plane/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
